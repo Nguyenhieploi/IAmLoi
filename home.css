@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./home.gif);
+}
+.text {
+    text-align: center;
+    height: 100vh;
+    margin-top: 240px;
+    
+}
+.img{
+    margin-bottom: 5px;
+}
+.text img{
+    width: 100px;
+}
+input{
+    width: 60%;
+    outline: none;
+    margin-bottom: 10px;
+}
+.button2{
+    padding: 8px 25px;
+    background: red;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.button2:hover{
+    color: white;
+}
+.button{
+    margin-top: 30px;
+    
+}
+.b-pink, .b-pink:before {
+    background: rgba(231,72,234,1);
+    background: -moz-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(231,72,234,1)), color-stop(100%, rgba(75,26,188,1)));
+    background: -webkit-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+    background: linear-gradient(45deg, rgba(231,72,234,1) 0%, rgba(75,26,188,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e748ea', endColorstr='#4b1abc', GradientType=1 );
+  }
+span{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    
+}
+h1{
+    color: white;
+}
