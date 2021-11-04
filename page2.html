@@ -7,27 +7,19 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="./home.css">
-<title>Title</title>
+<link rel="stylesheet" href="./index.css">
+<title>Text typing animation</title>
 </head>
 <body>
-<div class="text">
-    <h1>CHÀO MỪNG UYÊN ĐÃ ĐẾN VỚI HỆ THỐNG</h1><br>
-    <input type="text" placeholder="Nhập mật khẩu để đăng nhập"><br>
-    <span>Sau khi nhập mật khẩu, ấn nút ĐĂNG NHẬP bên dưới để tiếp tuc</span>
-   
-    <div class="button">
-        <a href="./index.html" class="button2 b-pink rot-135" onclick="myFunction()">ĐĂNG NHẬP</a>
-    </div>
-   
-</div>
-
-<script>
-    function myFunction() {
-      alert("Hello! Bạn đã sẵn sàng chưa");
-    }
+    <h1>Hello! Bé iu<br><span class="ityped"></span></h1>
+    <script src="https://unpkg.com/ityped@0.0.10"></script>
+  <script>
+        window.ityped.init(document.querySelector('.ityped'),{
+            strings: ['Chỉ muốn nói với em vài điều','là','Tôi yêu em','Sau này vẫn sẽ yêu em','Riêng Em','Tặng em con chim'],
+            loop: true
+        })
     </script>
-
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
